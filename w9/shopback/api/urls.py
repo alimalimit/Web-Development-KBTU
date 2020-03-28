@@ -9,3 +9,4 @@ urlpatterns = [
     path('categories/<int:category_id>/products', views.category_products, name='Category products')
 
 ]
+
